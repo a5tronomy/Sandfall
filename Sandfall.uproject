@@ -253,10 +253,7 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/260929cfa39b43238302154c98311fc7",
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"PS5",
-				"XSX",
-				"WinGDK"
+				"Win64"
 			]
 		},
 		{
@@ -290,10 +287,7 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fd24d23ca57b4c59a4e4b7368da250bd",
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Android",
-				"PS5",
-				"XSX",
-				"WinGDK"
+				"Android"
 			]
 		},
 		{
@@ -325,8 +319,7 @@
 			"Name": "WinDualShock",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"WinGDK"
+				"Win64"
 			]
 		},
 		{
@@ -338,10 +331,7 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/92c868e93e1d4dd596f87b200102f0cf",
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"PS5",
-				"XSX",
-				"WinGDK"
+				"Win64"
 			]
 		},
 		{
