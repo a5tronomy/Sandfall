@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECommonInputType.h"
+#include "CommonInputTypeEnum.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "Engine/DataTable.h"
 #include "InputCoreTypes.h"

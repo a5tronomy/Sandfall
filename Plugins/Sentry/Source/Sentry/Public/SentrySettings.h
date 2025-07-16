@@ -16,7 +16,7 @@
 class USentryBeforeSendHandler;
 class USentryTraceSampler;
 
-UCLASS(BlueprintType, DefaultConfig)
+UCLASS(BlueprintType, Config = Engine)
 class SENTRY_API USentrySettings : public UObject {
     GENERATED_BODY()
 public:

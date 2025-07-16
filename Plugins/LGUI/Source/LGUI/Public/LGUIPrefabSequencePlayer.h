@@ -7,7 +7,6 @@ UCLASS()
 class LGUI_API ULGUIPrefabSequencePlayer : public UMovieSceneSequencePlayer {
     GENERATED_BODY()
 public:
-    ULGUIPrefabSequencePlayer();
+    ULGUIPrefabSequencePlayer(const FObjectInitializer& ObjectInitializer);
 
 };
-

@@ -6,7 +6,7 @@
 #include "LGUIAtlasSettings.h"
 #include "LGUISettings.generated.h"
 
-UCLASS(DefaultConfig)
+UCLASS(Config = Engine)
 class LGUI_API ULGUISettings : public UObject {
     GENERATED_BODY()
 public:

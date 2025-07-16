@@ -1,9 +1,9 @@
 #include "MassSpawnerExtended.h"
 
-AMassSpawnerExtended::AMassSpawnerExtended(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+AMassSpawnerExtended::AMassSpawnerExtended()
+{
+
 }
 
 void AMassSpawnerExtended::DoDeterministicSpawning() {
 }
-
-

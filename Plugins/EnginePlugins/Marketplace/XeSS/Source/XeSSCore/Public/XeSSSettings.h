@@ -3,7 +3,7 @@
 #include "Engine/DeveloperSettings.h"
 #include "XeSSSettings.generated.h"
 
-UCLASS(DefaultConfig)
+UCLASS(Config = Engine)
 class UXeSSSettings : public UDeveloperSettings {
     GENERATED_BODY()
 public:

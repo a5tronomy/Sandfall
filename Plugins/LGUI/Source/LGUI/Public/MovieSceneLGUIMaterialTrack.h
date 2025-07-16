@@ -17,9 +17,11 @@ private:
     FName TrackName;
     
 public:
-    UMovieSceneLGUIMaterialTrack();
+    UMovieSceneLGUIMaterialTrack(const FObjectInitializer& ObjectInitializer);
 
+private:
 
-    // Fix for true pure virtual functions not being implemented
+    virtual void ImportEntityImpl(UMovieSceneEntitySystemLinker* EntityLinker, const FEntityImportParams& Params, FImportedEntity* OutImportedEntity) override;
+    
+    virtual void ExtendEntityImpl(UMovieSceneParameterSection* Section, UMovieSceneEntitySystemLinker* EntityLinker, const UE::MovieScene::FEntityImportParams& Params, UE::MovieScene::FImportedEntity* OutImportedEntity) override;
 };
-

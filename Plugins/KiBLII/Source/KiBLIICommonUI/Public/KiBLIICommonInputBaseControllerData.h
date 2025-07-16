@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CommonInputBaseControllerData.h"
+#include "CommonInputBaseTypes.h"
 #include "KiBLIIKeysWidgetData.h"
 #include "KiBLIICommonInputBaseControllerData.generated.h"
 

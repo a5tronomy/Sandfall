@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MassFragment.h"
+#include "MassEntityTypes.h"
 #include "ScalarsVariationFragment.generated.h"
 
 USTRUCT()

@@ -14,7 +14,7 @@ class UAssetUserData;
 class UFoliageType_InstancedStaticMesh;
 class UPhysicalMaterial;
 
-UCLASS(BlueprintType, DefaultConfig)
+UCLASS(BlueprintType, Config = Engine)
 class HOUDINIENGINERUNTIME_API UHoudiniRuntimeSettings : public UObject {
     GENERATED_BODY()
 public:

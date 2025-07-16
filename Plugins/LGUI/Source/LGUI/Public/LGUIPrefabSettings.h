@@ -3,7 +3,7 @@
 #include "UObject/Object.h"
 #include "LGUIPrefabSettings.generated.h"
 
-UCLASS(DefaultConfig)
+UCLASS(Config = Engine)
 class LGUI_API ULGUIPrefabSettings : public UObject {
     GENERATED_BODY()
 public:

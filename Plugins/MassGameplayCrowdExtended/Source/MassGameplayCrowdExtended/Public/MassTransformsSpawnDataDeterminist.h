@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MassTransformsSpawnData.h"
+#include "MassSpawnerTypes.h"
 #include "MassTransformsSpawnDataDeterminist.generated.h"
 
 USTRUCT()

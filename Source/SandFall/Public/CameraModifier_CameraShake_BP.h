@@ -24,10 +24,9 @@ public:
     UPROPERTY(EditAnywhere)
     TSubclassOf<UCameraShakeBase> ShakeAtStart;
     
-    UCameraModifier_CameraShake_BP();
+    UCameraModifier_CameraShake_BP(const FObjectInitializer& ObjectInitializer);
 
     UFUNCTION(BlueprintImplementableEvent)
     void BlueprintAddedToCamera(APlayerCameraManager* Camera);
     
 };
-

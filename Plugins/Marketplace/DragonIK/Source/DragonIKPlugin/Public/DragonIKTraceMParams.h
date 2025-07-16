@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "DragonIKTraceMParams.generated.h"
 
-USTRUCT()
+USTRUCT(Blueprintable, BlueprintType)
 struct FDragonIKTraceMParams {
     GENERATED_BODY()
 public:

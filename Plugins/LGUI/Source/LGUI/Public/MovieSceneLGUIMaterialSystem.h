@@ -8,9 +8,5 @@ UCLASS(MinimalAPI)
 class UMovieSceneLGUIMaterialSystem : public UMovieSceneEntitySystem, public IMovieScenePreAnimatedStateSystemInterface {
     GENERATED_BODY()
 public:
-    UMovieSceneLGUIMaterialSystem();
-
-
-    // Fix for true pure virtual functions not being implemented
+    UMovieSceneLGUIMaterialSystem(const FObjectInitializer& ObjectInitializer);
 };
-

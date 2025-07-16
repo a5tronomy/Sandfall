@@ -1,6 +1,6 @@
 #include "MovieSceneLGUIMaterialSystem.h"
 
-UMovieSceneLGUIMaterialSystem::UMovieSceneLGUIMaterialSystem() {
+UMovieSceneLGUIMaterialSystem::UMovieSceneLGUIMaterialSystem(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
 }
-
-

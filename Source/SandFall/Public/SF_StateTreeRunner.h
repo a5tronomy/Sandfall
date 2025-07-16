@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "StateTreeEvent.h"
+#include "StateTreeEvents.h"
 #include "StateTreeInstanceData.h"
 #include "StateTreeReference.h"
 #include "ExtendedObject.h"

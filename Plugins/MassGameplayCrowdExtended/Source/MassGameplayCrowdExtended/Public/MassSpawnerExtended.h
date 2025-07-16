@@ -7,10 +7,9 @@ UCLASS()
 class MASSGAMEPLAYCROWDEXTENDED_API AMassSpawnerExtended : public AMassSpawner {
     GENERATED_BODY()
 public:
-    AMassSpawnerExtended(const FObjectInitializer& ObjectInitializer);
+    AMassSpawnerExtended();
 
     UFUNCTION(BlueprintCallable)
     void DoDeterministicSpawning();
     
 };
-

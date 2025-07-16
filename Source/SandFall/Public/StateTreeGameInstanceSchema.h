@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "StateTreeExternalDataDesc.h"
+#include "StateTreeExecutionTypes.h"
 #include "StateTreeSchema.h"
 #include "Templates/SubclassOf.h"
 #include "StateTreeGameInstanceSchema.generated.h"

@@ -1,6 +1,6 @@
 #include "LGUIPrefabSequencePlayer.h"
 
-ULGUIPrefabSequencePlayer::ULGUIPrefabSequencePlayer() {
+ULGUIPrefabSequencePlayer::ULGUIPrefabSequencePlayer(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
 }
-
-

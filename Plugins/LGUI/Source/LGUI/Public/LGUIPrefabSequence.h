@@ -21,7 +21,6 @@ private:
     FString DisplayNameString;
     
 public:
-    ULGUIPrefabSequence();
+    ULGUIPrefabSequence(const FObjectInitializer& ObjectInitializer);
 
 };
-
