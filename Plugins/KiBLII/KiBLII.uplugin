@@ -10,7 +10,7 @@
 	"DocsURL": "http://loonyware.com/assets/keyboard-layout-independent-input/#Documentation",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/40187333591a4ad6babfbfbbe9d2ed16",
 	"SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/1681902-kiblii-keyboard-layout-independent-input",
-	"EngineVersion": "5.4.4",
+	"EngineVersion": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
