@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 6,
+	"VersionName": "1.4",
+	"FriendlyName": "Keyboard Layout-Independent Input",
+	"Description": "KiBLII extends UE with effortless support for all keyboard layouts",
+	"Category": "Input",
+	"CreatedBy": "loonyware",
+	"CreatedByURL": "http://loonyware.com",
+	"DocsURL": "http://loonyware.com/assets/keyboard-layout-independent-input/#Documentation",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/40187333591a4ad6babfbfbbe9d2ed16",
+	"SupportURL": "https://forums.unrealengine.com/unreal-engine/marketplace/1681902-kiblii-keyboard-layout-independent-input",
+	"EngineVersion": "5.4.4",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "KiBLII",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "KiBLIICommonUI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		}
+	]
+}

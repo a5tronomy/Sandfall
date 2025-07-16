@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MoCap Tools",
+	"Description": "A set of tools for modifying animation data to more easily work for conventional or motion-matched animation implementation.",
+	"Category": "Animation Code Plugins",
+	"CreatedBy": "MuuKnighted Games",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/efe1b1dac9bc4e2b955d0494c12a4ede",
+	"SupportURL": "https://discord.gg/HWmKtWB6UY",
+	"EngineVersion": "5.4.4",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true
+}

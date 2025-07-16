@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.30.0",
+	"FriendlyName": "Oculus Lipsync",
+	"Description": "Support for Oculus Lipsync",
+	"Category": "Audio",
+	"CreatedBy": "Oculus",
+	"CreatedByURL": "https://developer.oculus.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "OVRLipSync",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Android",
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}

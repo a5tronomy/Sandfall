@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "IK Foot to Ground",
+	"Description": "Plugin uses inverse kinematics to adjust foot vertical location.",
+	"Category": "Animation",
+	"CreatedBy": "Anti Anti Games",
+	"CreatedByURL": "http://antiantigame.ru",
+	"DocsURL": "http://antiantigame.ru/docs/Foot2Ground_Plugin.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f1fbd99a5804ac5b100c501ed37c760",
+	"SupportURL": "ykasczc@gmail.com",
+	"EngineVersion": "5.4.4",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "IKFootToGround",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Android"
+			]
+		}
+	]
+}
